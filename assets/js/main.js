@@ -72,58 +72,8 @@ let data = [
 
 const div = document.querySelector("div")
 
-// //!IMG
-// let img = document.createElement("img")
-// img.src = data[0].url
-// div.appendChild(img)
-
-// //! QUESTION
-// let question = document.createElement("p")
-// question.textContent = data[0].question
-// div.appendChild(question)
-
-// //! Answechoice
-// // let choice = document.createElement("button")
-// // choice.textContent = data[0].choice[0]
-// // div.appendChild(choice)
-// //! all answers
-
-// let arrChoices = data[0].choice
-// let wrapperAnswers = document.createElement("section")
-
-// for (let i = 0; i < arrChoices.length; i++) {
-//     let choice = document.createElement("button")
-//     choice.textContent = data[0].choice[i]
-//     wrapperAnswers.appendChild(choice)
-//     div.appendChild(wrapperAnswers)
-// }
-
 //! made completly full first data object in loop
 let objLength = 4;
-
-
-// for (let i = 0; i < 3; i++) {
-//     if (i == 0) {
-//         let img = document.createElement("img")
-//         img.src = data[0].url
-//         div.appendChild(img)
-//     } else if (i == 1) {
-//         let question = document.createElement("p")
-//         question.textContent = data[0].question
-//         div.appendChild(question)
-//     } else if (i == 2) {
-//         let arrChoices = data[0].choice
-//         let wrapperAnswers = document.createElement("section")
-
-//         for (let i = 0; i < arrChoices.length; i++) {
-//             let choice = document.createElement("button")
-//             choice.textContent = data[0].choice[i]
-//             wrapperAnswers.appendChild(choice)
-//             div.appendChild(wrapperAnswers)
-//         }
-//     }
-// }
-
 
 //? for the whole
 let dataLength = data.length;
