@@ -2,7 +2,7 @@
 //! all datatypes by answers are set to "STRING" (lines 28,34), which is bad for:
 //! Boolean and Number values as well as double/equal answers by different questions!  
 
-//* Solutions is to pick just the proper Index of data array by button.click
+//* Solutions is to pick just the proper Index of data array by button.click and then compare it inside of the element of data!
 //? erstmal keine Lust für  )
 
 
@@ -169,7 +169,6 @@ for (let i = 0; i < allButtons.length; i++) {
         } else {
             allButtons[i].style.color = "red"
         }
-        console.log(allButtons[i].innerHTML)
     }
     )
 }
